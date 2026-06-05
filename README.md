@@ -2,7 +2,7 @@
 
 # Amazon Reviews Analysis Using MapReduce
 
-<a href="./slides.pptx">Slides</a> · <a href="./report.pdf">Report</a> ·  <a href="./">Code</a>
+<a href="./slides.pptx">Slides</a> · <a href="./report.pdf">Report</a> ·  <a href="./">Code</a> · <a href="https://youtu.be/RVWTRBpeS28" target="_blank">Presentation</a>
 
 ![](./media/project.png)
 
