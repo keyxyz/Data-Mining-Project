@@ -1,4 +1,11 @@
+<div align=center>
+
 # Amazon Reviews Analysis Using MapReduce
+
+![](./media/project.png)
+
+
+</div>
 
 # Overview
 
