@@ -1,0 +1,85 @@
+metadata: shape
+
+(89251, 16)
+
+metadata: columns
+
+['main_category', 'title', 'average_rating', 'rating_number', 'features', 'description', 'price', 'images', 'videos', 'store', 'categories', 'details', 'parent_asin', 'bought_together', 'subtitle', 'author']
+
+metadata: info
+
+<class 'pandas.DataFrame'>
+RangeIndex: 89251 entries, 0 to 89250
+Data columns (total 16 columns):
+ #   Column           Non-Null Count  Dtype  
+---  ------           --------------  -----  
+ 0   main_category    87482 non-null  str    
+ 1   title            89251 non-null  str    
+ 2   average_rating   89226 non-null  float64
+ 3   rating_number    86292 non-null  float64
+ 4   features         89251 non-null  object 
+ 5   description      89251 non-null  object 
+ 6   price            70985 non-null  float64
+ 7   images           89251 non-null  object 
+ 8   videos           89251 non-null  object 
+ 9   store            89038 non-null  str    
+ 10  categories       89251 non-null  object 
+ 11  details          89251 non-null  object 
+ 12  parent_asin      89251 non-null  str    
+ 13  bought_together  0 non-null      float64
+ 14  subtitle         0 non-null      float64
+ 15  author           0 non-null      float64
+dtypes: float64(6), object(6), str(4)
+memory usage: 10.9+ MB
+
+metadata: first 5 records
+
+          main_category  ... author
+0  Appstore for Android  ...    NaN
+1  Appstore for Android  ...    NaN
+2  Appstore for Android  ...    NaN
+3  Appstore for Android  ...    NaN
+4  Appstore for Android  ...    NaN
+
+[5 rows x 16 columns]
+
+dataset: reading first 100 rows only
+
+dataset: shape
+
+(100, 10)
+
+dataaset: columns
+
+['rating', 'title', 'text', 'images', 'asin', 'parent_asin', 'user_id', 'timestamp', 'helpful_vote', 'verified_purchase']
+
+dataset: info
+
+<class 'pandas.DataFrame'>
+RangeIndex: 100 entries, 0 to 99
+Data columns (total 10 columns):
+ #   Column             Non-Null Count  Dtype         
+---  ------             --------------  -----         
+ 0   rating             100 non-null    int64         
+ 1   title              100 non-null    str           
+ 2   text               100 non-null    str           
+ 3   images             100 non-null    object        
+ 4   asin               100 non-null    str           
+ 5   parent_asin        100 non-null    str           
+ 6   user_id            100 non-null    str           
+ 7   timestamp          100 non-null    datetime64[ms]
+ 8   helpful_vote       100 non-null    int64         
+ 9   verified_purchase  100 non-null    bool          
+dtypes: bool(1), datetime64[ms](1), int64(2), object(1), str(5)
+memory usage: 7.3+ KB
+
+dataset: first 5 records
+
+   rating  ... verified_purchase
+0       1  ...             False
+1       5  ...              True
+2       5  ...              True
+3       4  ...              True
+4       4  ...              True
+
+[5 rows x 10 columns]

@@ -19,7 +19,7 @@ class MRHelpfulness(MRJob):
     def reducer(self, vote, values):
         yield None, (vote, sum(values))
 
-    def reducerAve(self, _, values):
+    def reducerAvg(self, _, values):
         helpful = 0
         unhelpful = 0
 
@@ -38,7 +38,8 @@ class MRHelpfulness(MRJob):
     def steps(self):
         return [
             MRStep(mapper=self.mapper, reducer=self.reducer),
-            MRStep(reducer= self.reducerAve)       
+            MRStep(reducer= self.reducerAvg)       
         ]
+
 if __name__ == "__main__":
     MRHelpfulness.run()
